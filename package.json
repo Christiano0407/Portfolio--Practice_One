@@ -1,0 +1,23 @@
+{
+  "name": "practice-portfolio",
+  "version": "1.0.0",
+  "description": "practice-Portfolio",
+  "main": "src/js/index.js",
+  "scripts": {
+    "portfolio": "node src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Portfolio--Practice_One.git"
+  },
+  "keywords": [
+    "javascript",
+    "css"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Portfolio--Practice_One/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Portfolio--Practice_One#readme"
+}

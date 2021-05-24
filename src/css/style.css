@@ -1,0 +1,48 @@
+:root {
+  
+    --clr-mainColor:#eaeaea;
+	--clr-secondaryColor:#fff;
+
+	--clr-borderColor:#c1c1c1;
+
+	--clr-mainText: #000000;
+	--clr-secondaryText:#4b5156;
+
+	--clr-themeDotBorder:#24292e;
+
+	--clr-previewBg:rgb(251, 249, 243, 0.8);
+	--clr-previewShadow:#f0ead6;
+
+	--clr-buttonColor: #000000;
+
+    --clr-theme-one:#7135F2; 
+    --clr-theme-two:#05AFF2; 
+
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size-medium-tall: 1.8rem; 
+    --font-size-title: 2.4rem; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
