@@ -16,7 +16,7 @@
 	--clr-buttonColor: #000000;
 
     --clr-theme-one:#7135F2; 
-    --clr-theme-one:#037903; 
+    --clr-theme-three:#037903; 
     --clr-theme-two:#05AFF2; 
 
     --clr-dot-1: #FC6058; 
@@ -168,7 +168,93 @@ h6 { font-size: 16px;}
   object-fit: cover;
   border: 2px solid var(--clr-borderColor);
 }
+.text-five {
+    text-align: center;
+    /* line-height: 0; */
+
+}
 #theme-options-wrapper {
     display: flex;
     justify-content: center;
+}
+.theme-dot {
+    height: 3rem;
+    width: 3rem;
+
+    background-color: #000;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid var(--clr-themeDotBorder);
+    cursor: pointer;
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+.theme-dot:hover {
+    border-width: 5px;
+}
+#light-mode {
+    background-color: #fff;
+}
+#blue-mode {
+   background-color: var(--clr-theme-two);
+}
+#green-mode {
+   background-color: var(--clr-theme-three);
+}
+#purple-mode {
+   background-color: var(--clr-theme-one);
+}
+#settings-note {
+    font-size: var(--font-size-small);
+    font-style: italic;
+    text-align: center;
+}
+
+.right-column {
+    grid-area: right-column;
+    display: grid;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#preview-shadow {
+    background-color: var(--clr-previewShadow);
+    max-width: 300px;
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#preview {
+    width: 300px;
+    border: 1.5px solid var(--clr-theme-two);
+    background-color: var(--clr-previewShadow);
+    padding: 15px;
+    position: relative;
+}
+.corner {
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+    border: 1.5px solid var(--clr-theme-two);
+    background: #fff;
+    position: absolute;
+}
+#corner-tl {
+ top: -5px;
+ left: -5px;
+}
+#corner-tr {
+ top: -5px;
+ right: -5px;
+}
+#corner-bl {
+ bottom: -5px;
+ left: -5px;
+}
+#corner-br {
+ bottom: -5px;
+ right: -5px;
 }
